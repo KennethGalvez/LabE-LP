@@ -1,0 +1,8 @@
+
+expression: {'LPAREN', 'ID'}
+factor: {'LPAREN', 'ID'}
+term: {'LPAREN', 'ID'}
+
+expression: {'PLUS', 'RPAREN', 'INIC'}
+factor: {'TIMES', 'RPAREN', 'INIC', 'PLUS'}
+term: {'TIMES', 'RPAREN', 'INIC', 'PLUS'}
